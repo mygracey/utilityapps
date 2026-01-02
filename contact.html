@@ -75,21 +75,21 @@
                 </div>
 
                <div class="form-container">
-                <form action="">
+                <form action="https://formspree.io/f/xeeokeyy" method="post">
                     <p id="message-status"></p>
                     <div class="form-control">
-                        <input type="text" id="name" placeholder="Enter your first name" autocomplete="off">
+                        <input type="text"  name="name" placeholder="Enter your first name" autocomplete="off" required>
                     </div>
 
                     <div class="form-control">
-                        <input type="text" id="email" placeholder="Enter email address" autocomplete="off">
+                        <input type="text"  name="email" placeholder="Enter email address" autocomplete="off" required>
                     </div>
                     <div class="form-control">
-                        <input type="text" id="mobile" placeholder="Enter your mobile number" autocomplete="off">
+                        <input type="text" name="mobile" placeholder="Enter your mobile number" autocomplete="off" required>
                     </div>
-                    <textarea id="message" placeholder="Write a message..." autocomplete="off"></textarea>
+                    <textarea  name="message" placeholder="Write a message..." autocomplete="off" required></textarea>
 
-                    <button class="btn-send">Send my message</button>
+                    <button class="btn-send" type="submit">Send my message</button>
                 </form>
                </div>
             </div>
