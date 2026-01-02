@@ -41,18 +41,14 @@ homepage.addEventListener('click',function(){
 
 
 
-let searchfield=document.getElementById('searchfield')
+
 let buttonSearch=document.querySelector('.btn-search')
-let msg=document.getElementById('msg')
+
 
 buttonSearch.addEventListener('click',function(e){
     e.preventDefault()
-
-    if(searchfield.value==""){
-        msg.innerText="Your search field should not be empty."
-    }
-    else{
+      
         window.location.href="https://www.google.com/search"
-    }
+
 })
 

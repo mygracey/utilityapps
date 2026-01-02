@@ -162,33 +162,20 @@ main .btn{
     padding-right:1.5rem;
 }
 
-.search-container form input{
-    width:40rem;
-    height:4rem;
-    border:3px solid rgb(230, 13, 49);
-    background:transparent;
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-    margin:1rem auto;
-    padding-left:1rem;
-    font-size:1rem;
-    color:whitesmoke;
-    text-align:center;
-}
-.search-container::placeholder{
-    font-size:1rem;
-}
 
 .search-container form button{
-    width:8rem;
+    width:20rem;
     height:4rem;
     background:rgb(230, 13, 49);
     color:white;
     margin-left:-2rem;
-    border-top-right-radius:2rem ;
-    border-bottom-right-radius: 2rem;
+    border-radius:2rem;
     cursor: pointer;
     font-size: 1rem;
+}
+
+.search-container form button:hover{
+    background:rgb(143, 3, 26);
 }
 #msg{
     color:white;
@@ -441,17 +428,15 @@ main .btn{
 
 .search-container form{
     width:100%;
-    padding-left:1rem;
+    padding-left:0;
 }
 
-.search-container form input{
-    width:35rem;
-    height:3rem;
-}
+
 
 .search-container form button{
-    width:10rem;
+    width:20rem;
     height:3rem;
+    margin-left:1rem;
    
 }
 
