@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GStyles Utilities App</title>
+    <link rel="icon" href="myfav.jpeg">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    
+</head>
+<body>
+  
+    <section class="container">
+        <main class="main">
+            <nav>
+                <div class="logo">
+                    <h3><span>G</span>Styles</h3>
+                </div>
+
+                <h3>Calculator</h3>
+
+               <a href="index.html"><i class="fa fa-home"></i>  return home</a>
+
+            </nav>
+
+
+            <br>
+
+                <div class="calc-container">
+                     <h3>Calculator</h3>
+                     <form>
+                       
+                        <div>
+                            <input type="text" class="display" name="display" value="">
+                        </div>
+
+                        <div class="buttons">
+                            <input type="button" value="AC" onclick="display.value=''" class="special">
+                            <input type="button" value="DE" class="special" onclick="display.value=display.value.toString().slice(0,-1)">
+                            <input type="button" value="." class="special" onclick="display.value+='.'">
+                            <input type="button" value="/" class="special" onclick="display.value+='/'">
+                        
+
+                        
+                            <input type="button" value="7" onclick="display.value+='7'">
+                            <input type="button" value="8" onclick="display.value+='8'">
+                            <input type="button" value="9" onclick="display.value+='9'">
+                            <input type="button" value="*" class="special" onclick="display.value+='*'">
+                        
+
+                        
+                            <input type="button" value="4" onclick="display.value+='4'">
+                            <input type="button" value="5" onclick="display.value+='5'">
+                            <input type="button" value="6" onclick="display.value+='6'">
+                            <input type="button" value="-" class="special" onclick="display.value+='-'">
+                        
+
+
+                        
+                            <input type="button" value="1" onclick="display.value+='1'">
+                            <input type="button" value="2" onclick="display.value+='2'">
+                            <input type="button" value="3" onclick="display.value+='3'">
+                            <input type="button" value="+" class="special" onclick="display.value+='+'">
+                        
+
+
+                        
+                            <input type="button" value="00" onclick="display.value+='00'">
+                            <input type="button" value="0" onclick="display.value+='0'">
+                            <input type="button" value="=" class="equal" onclick="display.value=eval(display.value)">
+                            
+                        </div>
+                    </form>
+                </div>
+
+                   
+
+           
+
+        </main>
+
+
+
+
+    </section>
+
+    
+ <footer>
+    <p id="footer-text">
+        &copy; 2025 Powered by GStyles Utilities App Inc. All rights reserved.
+    </p>
+ </footer>   
+
+
+
+</body>
+</html>

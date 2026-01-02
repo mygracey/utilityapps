@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GStyles Utilities App</title>
+    <link rel="icon" href="myfav.jpeg">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+<body>
+
+            <div class="notepad-container">
+               <button class="plus-icon-notepad">
+                 <i class="fa fa-plus"></i>
+              </button>
+
+              <br>
+
+        
+
+    
+            <textarea class="textarea" placeholder="Create a new note..."></textarea>
+            <div class="display-area">
+                <ul class="output"></ul>
+            </div>
+
+            <div class="button-group">
+                 <button type="submit" class="btn-submit">Create Note</button>
+                 <button class="btn-delete"><i class="fa fa-trash"></i></button>
+            </div>
+           
+       
+        
+
+    </div>
+
+
+
+
+
+    <div class="search-container">
+        <div class="plus">
+            <i class="fa fa-plus plus-search plus-icon"></i>
+        </div>
+        
+            <form action="">
+                <input type="text" id="searchfield" placeholder="Ask Google"><button>Seach</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <section class="container">
+        <main>
+            <nav>
+                 
+                <div class="logo">
+                    <h3><span>G</span>Styles</h3>
+                </div>
+                
+               <p id="util" class="homepage">Utilities</p>
+            
+            </nav>
+
+
+            <div class="contact-box">
+
+                <div class="info-box">
+                    <h1>Contact Us</h1>
+                    <p id="ptext">
+                        For more about our apps and how you can can make useful contributions to the development of more apps and the improvement of already existing apps on our platforms, you can send us a mail today.
+                    </p>
+                </div>
+
+               <div class="form-container">
+                <form action="">
+                    <p id="message-status"></p>
+                    <div class="form-control">
+                        <input type="text" id="name" placeholder="Enter your first name" autocomplete="off">
+                    </div>
+
+                    <div class="form-control">
+                        <input type="text" id="email" placeholder="Enter email address" autocomplete="off">
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="mobile" placeholder="Enter your mobile number" autocomplete="off">
+                    </div>
+                    <textarea id="message" placeholder="Write a message..." autocomplete="off"></textarea>
+
+                    <button class="btn-send">Send my message</button>
+                </form>
+               </div>
+            </div>
+
+        </main>
+        
+    </section>
+
+<footer>
+    <p id="footer-text">
+        &copy; 2025 Powered by GStyles Utilities App Inc. All rights reserved.
+    </p>
+ </footer>   
+
+<script src="contact.js"></script>  
+</body>
+</html>
